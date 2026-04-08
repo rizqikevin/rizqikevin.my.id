@@ -1,0 +1,141 @@
+## 📘 Introduction
+
+This is my personal website built from scratch since **February 2024** using modern technologies like **Next.js** and **TypeScript**.
+
+I use this platform to:
+
+- Showcase my portfolio and projects
+- Share developer resources and stats
+- Experiment with new web technologies
+
+The site is continuously evolving. You’re welcome to fork or explore the source code. If you find it helpful, consider giving it a ⭐ on GitHub.
+
+Have questions or feedback? I’d love to hear from you 🙌
+
+---
+
+## ⚙️ Tech Stack
+
+This project is powered by:
+
+- ⚛️ **Next.js**
+- 🔰 **TypeScript**
+- 💠 **Tailwind CSS v3**
+- 🦫 **Zustand**
+- 〰️ **SWR**
+- ➰ **Framer Motion**
+- 💢 **React Icons**
+- 🌐 **Next-Intl (i18n)**
+- 📦 **Absolute Imports & Path Alias**
+- 📏 **ESLint & Prettier**
+- 📌 **Conventional Commit Lint**
+
+---
+
+## 🚀 Features
+
+### 🕗 Wakatime Stats
+
+Displays live coding stats from Wakatime via serverless API routes using `api/wakatime`
+
+### 🗳 Project Showcase
+
+Project data is stored in **Supabase PostgreSQL**, and displayed using:
+
+- **ISR (1s revalidation)**
+- **SSR for fast access**
+
+### 🌍 Internationalization
+
+Multi-language support with `next-intl`
+Currently includes Bahasa Indonesia and English.
+
+### 📊 Developer Dashboard
+
+Interactive dashboard showing:
+
+- GitHub contributions
+- Wakatime coding hours
+- Codewars challenges
+- Monkeytype typing speeds
+
+All stats fetched from public APIs and rendered dynamically.
+
+---
+
+## 🛠 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/rizqikevin/rizqikevin.my.id
+```
+
+or use a starter template:
+
+```bash
+npx create-next-app -e https://github.com/rizqikevin/rizqikevin.my.id your-app-name
+```
+
+```bash
+npx degit rizqikevin/rizqikevin.my.id your-app-name
+```
+
+Or deploy directly:
+
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/rizqikevin/rizqikevin.my.id)  
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/rizqikevin/rizqikevin.my.id)
+
+---
+
+### 2. Install Dependencies
+
+```bash
+bun install
+```
+
+> ⚠️ Make sure you use **Bun** for compatibility with Husky hooks and scripts.
+
+---
+
+### 3. Configure Environment Variables
+
+Copy `.env.example` to `.env`:
+
+```bash
+cp .env.example .env
+```
+
+Then fill in the required credentials...
+
+---
+
+### 4. Run Development Server
+
+```bash
+bun run dev
+```
+
+Open in your browser:
+
+```txt
+http://localhost:3000
+```
+
+Start editing from:
+
+```txt
+src/pages/index.tsx
+```
+
+---
+
+## 📄 License
+
+This project is released under the **MIT License**.  
+Feel free to use, modify, and distribute for personal or commercial purposes.
+
+---
+
+Thanks for checking this out!  
+🧠 Made with curiosity, love, and caffeine ☕ by [Rizqi Kevin](https://rizqikevin.my.id)
