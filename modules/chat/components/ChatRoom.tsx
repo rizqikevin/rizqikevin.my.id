@@ -3,7 +3,7 @@
 import useSWR from "swr";
 import axios from "axios";
 import { v4 as uuidv4 } from "uuid";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useSession } from "next-auth/react";
 
 import ChatAuth from "./ChatAuth";
@@ -28,7 +28,13 @@ export const ChatRoom = ({ isWidget = false }: { isWidget?: boolean }) => {
 
   const { data: session } = useSession();
 
-  const supabase = createClient();
+  const supabaseRef = useRef<ReturnType<typeof createClient> | null>(null);
+
+  if (!supabaseRef.current) {
+    supabaseRef.current = createClient();
+  }
+
+  const supabase = supabaseRef.current;
 
   const notif = useNotif();
 
@@ -60,6 +66,7 @@ export const ChatRoom = ({ isWidget = false }: { isWidget?: boolean }) => {
     } catch (error) {
       console.error("Error:", error);
       notif("Failed to send message");
+      throw error;
     }
   };
 

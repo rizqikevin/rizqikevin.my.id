@@ -4,7 +4,19 @@ import { NextResponse } from "next/server";
 export const GET = async () => {
   const supabase = createClient();
   try {
-    const { data } = await supabase.from("messages").select();
+    const { data, error } = await supabase
+      .from("messages")
+      .select()
+      .order("created_at", { ascending: true });
+
+    if (error) {
+      console.error("Failed to fetch messages:", error);
+      return NextResponse.json(
+        { message: "Failed to fetch messages", details: error.message },
+        { status: 500 },
+      );
+    }
+
     return NextResponse.json(data, { status: 200 });
   } catch (error) {
     return NextResponse.json(
@@ -18,7 +30,16 @@ export const POST = async (req: Request) => {
   const supabase = createClient();
   try {
     const body = await req.json();
-    await supabase.from("messages").insert([body]);
+    const { error } = await supabase.from("messages").insert([body]);
+
+    if (error) {
+      console.error("Failed to insert message:", error, body);
+      return NextResponse.json(
+        { message: "Failed to insert message", details: error.message },
+        { status: 500 },
+      );
+    }
+
     return NextResponse.json("Data saved successfully", { status: 200 });
   } catch (error) {
     return NextResponse.json(

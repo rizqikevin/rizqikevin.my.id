@@ -20,8 +20,6 @@ const ChatList = ({
 }: ChatListPropsNew) => {
   const chatListRef = useRef<HTMLDivElement | null>(null);
   const [hasScrolledUp, setHasScrolledUp] = useState(false);
-  const [chatListHeight, setChatListHeight] = useState('500px');
-
   useEffect(() => {
     const handleScroll = () => {
       if (chatListRef.current) {
@@ -52,26 +50,11 @@ const ChatList = ({
     }
   }, [messages, hasScrolledUp]);
 
-  useEffect(() => {
-    const handleResize = () => {
-      const newHeight = isWidget ? '500px' : `${window.innerHeight - 360}px`;
-      setChatListHeight(newHeight);
-    };
-
-    handleResize();
-
-    window.addEventListener('resize', handleResize);
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, [isWidget]);
-
   return (
     <div ref={chatListRef} className="h-[26rem] space-y-5 overflow-y-auto py-4">
-      {messages?.map((chat, index) => (
+      {messages?.map((chat) => (
         <ChatItem
-          key={index}
+          key={chat.id}
           onDelete={onDeleteMessage}
           onReply={onClickReply}
           isWidget={isWidget}
