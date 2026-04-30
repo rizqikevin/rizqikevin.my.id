@@ -3,7 +3,7 @@ import { getTranslations } from "next-intl/server";
 
 import Container from "@/common/components/elements/Container";
 import PageHeading from "@/common/components/elements/PageHeading";
-import Tiktok from "@/modules/contents/Tiktok";
+import Instagram from "@/modules/contents/Instagram";
 import { METADATA } from "@/common/constants/metadata";
 
 type Props = {
@@ -30,7 +30,7 @@ const ContentsPage = async ({ params: { locale } }: Props) => {
   return (
     <Container data-aos="fade-up">
       <PageHeading title={t("title")} description={t("description")} />
-      <Tiktok />
+      <Instagram />
     </Container>
   );
 };

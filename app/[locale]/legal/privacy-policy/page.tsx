@@ -5,9 +5,8 @@ import { METADATA } from "@/common/constants/metadata";
 
 export const metadata: Metadata = {
   title: `Privacy Policy ${METADATA.exTitle}`,
-  description:
-    "Privacy Policy for Rizqi Kevin Portfolio App regarding TikTok API integration",
-  keywords: "portfolio frontend developer, privacy policy, tiktok api",
+  description: "Privacy Policy for Rizqi Kevin Portfolio App.",
+  keywords: "portfolio frontend developer, privacy policy",
   alternates: {
     canonical: `${process.env.DOMAIN}/privacy-policy`,
   },
@@ -35,53 +34,32 @@ const PrivacyPolicyPage = () => {
 
         <section className="space-y-4">
           <h2 className="text-xl font-semibold dark:text-neutral-100">
-            2. TikTok API Integration
+            2. Third-Party Services
           </h2>
           <p>
-            The App utilizes the TikTok Display API to fetch and show the
-            developer&apos;s (Rizqi Kevin) public TikTok content for
-            professional display purposes.
+            The App may link to or display publicly available content from
+            third-party platforms such as Instagram, GitHub, LinkedIn, and
+            other services referenced throughout the portfolio.
           </p>
           <ul className="ml-6 list-disc space-y-2">
             <li>
-              <strong>Profile Statistics:</strong> The App displays public
-              metrics including follower count, following count, and total
-              likes.
+              <strong>Public Content Only:</strong> The App only references
+              public-facing profile or portfolio information.
             </li>
             <li>
-              <strong>Content Feed:</strong> The App displays public videos
-              uploaded by the developer.
+              <strong>No Private Access:</strong> The App does not request or
+              store private social media account data from visitors.
             </li>
             <li>
-              <strong>Data Scope:</strong> The App only accesses the
-              developer&apos;s own public content. No private user data from
-              TikTok or data from other users is accessed or collected.
+              <strong>External Policies:</strong> Any interaction with external
+              services is governed by the privacy policies of those platforms.
             </li>
           </ul>
         </section>
 
         <section className="space-y-4">
           <h2 className="text-xl font-semibold dark:text-neutral-100">
-            3. Third-Party Services
-          </h2>
-          <p>
-            All displayed TikTok data is pulled directly from the official
-            TikTok API. Use of these features is subject to the{" "}
-            <a
-              href="https://www.tiktok.com/legal/privacy-policy"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-500 hover:underline"
-            >
-              TikTok Privacy Policy
-            </a>
-            .
-          </p>
-        </section>
-
-        <section className="space-y-4">
-          <h2 className="text-xl font-semibold dark:text-neutral-100">
-            4. Contact Information
+            3. Contact Information
           </h2>
           <p>
             If you have any questions regarding this Privacy Policy, you may

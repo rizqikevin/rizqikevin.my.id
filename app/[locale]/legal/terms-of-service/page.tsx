@@ -5,9 +5,8 @@ import { METADATA } from "@/common/constants/metadata";
 
 export const metadata: Metadata = {
   title: `Terms of Service ${METADATA.exTitle}`,
-  description:
-    "Terms of Service for Rizqi Kevin's Portfolio App regarding TikTok API usage",
-  keywords: "portfolio frontend developer, terms of service, tiktok api",
+  description: "Terms of Service for Rizqi Kevin's Portfolio App.",
+  keywords: "portfolio frontend developer, terms of service",
   alternates: {
     canonical: `${process.env.DOMAIN}/terms-of-service`,
   },
@@ -28,7 +27,7 @@ const TermsOfServicePage = () => {
           <p>
             This website is a personal portfolio created to showcase Rizqi
             Kevin&apos;s professional projects, technical skills, and social
-            media presence through integrated API services.
+            media presence.
           </p>
         </section>
 
@@ -38,33 +37,31 @@ const TermsOfServicePage = () => {
           </h2>
           <p>
             All original code, design elements, and content on this website are
-            the property of Rizqi Kevin. Content displayed through the TikTok
-            API (such as videos and profile data) remains the intellectual
-            property of its respective owners and is subject to TikTok&apos;s
-            legal terms.
+            the property of Rizqi Kevin unless otherwise stated. Third-party
+            trademarks, platform names, and linked content remain the property
+            of their respective owners.
           </p>
         </section>
 
         <section className="space-y-4">
           <h2 className="text-xl font-semibold dark:text-neutral-100">
-            3. Use of TikTok Content
+            3. Acceptable Use
           </h2>
           <p>
-            The TikTok video feed and data displayed on this site are provided
-            via the official TikTok Display API. By using this site, you agree:
+            By using this site, you agree:
           </p>
           <ul className="ml-6 list-disc space-y-2">
             <li>
-              Not to download, copy, or redistribute TikTok content without
+              Not to misuse, copy, or redistribute website content without
               authorization.
             </li>
             <li>
-              That the display of this content is intended solely for personal
-              branding and portfolio showcasing.
+              That the site is intended for informational and portfolio
+              showcasing purposes.
             </li>
             <li>
-              To comply with TikTok&apos;s own Terms of Service while
-              interacting with integrated features.
+              To comply with the terms of any third-party platform you access
+              through links on this site.
             </li>
           </ul>
         </section>
@@ -74,21 +71,21 @@ const TermsOfServicePage = () => {
             4. Disclaimer
           </h2>
           <p>
-            The &quot;Portfolio&quot; application provides TikTok integration
-            &quot;as is.&quot; The developer is not responsible for any service
-            interruptions, inaccuracies in API data, or changes in TikTok&apos;s
-            API availability and policies.
+            The &quot;Portfolio&quot; application is provided &quot;as is.&quot;
+            The developer is not responsible for interruptions, outdated
+            external information, or changes to third-party services linked
+            from this site.
           </p>
         </section>
 
         <section className="space-y-4">
           <h2 className="text-xl font-semibold dark:text-neutral-100">
-            5. Compliance
+            5. External Links
           </h2>
           <p>
-            This App strictly complies with the TikTok Developer Terms of
-            Service and only utilizes public-facing API endpoints to showcase
-            account information.
+            This site may contain links to external websites and social media
+            profiles. The developer is not responsible for the content or
+            policies of those external destinations.
           </p>
         </section>
       </div>

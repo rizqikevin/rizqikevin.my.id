@@ -43,10 +43,12 @@
   "ContentsPage": {
     "title": "Contents",
     "description": "A collection of my coding content and creative works.",
-    "open_tiktok": "Open TikTok",
+    "open_instagram": "Open Instagram",
     "view": "View",
-    "load_more": "Load More",
-    "privacy_policy": "Privacy Policy",
+    "view_profile": "View profile",
+    "instagram_section_title": "What you'll find there",
+    "instagram_profile_title": "Profile",
+    "instagram_profile_copy": "This section now points visitors to my Instagram presence.",
     "error": "An error occurred on the server.",
     "no_data": "No data available."
   },

@@ -91,19 +91,9 @@ create index if not exists messages_created_at_idx on public.messages (created_a
 create index if not exists messages_is_show_idx on public.messages (is_show);
 create index if not exists messages_email_idx on public.messages (email);
 
-create table if not exists public.tiktok_tokens (
-  id uuid primary key,
-  access_token text not null,
-  refresh_token text not null,
-  expires_at timestamptz not null,
-  refresh_expires_at timestamptz not null,
-  updated_at timestamptz not null default now()
-);
-
 alter table public.projects disable row level security;
 alter table public.achievements disable row level security;
 alter table public.messages disable row level security;
-alter table public.tiktok_tokens disable row level security;
 
 insert into storage.buckets (id, name, public)
 values

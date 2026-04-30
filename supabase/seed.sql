@@ -13,7 +13,6 @@
 --      google-data-analytics.webp
 --      aws-cloud-practitioner.webp
 --      hackathon-best-ui.webp
--- 2. The tiktok_tokens table is intentionally not seeded with dummy tokens.
 
 insert into public.projects (
   title,
