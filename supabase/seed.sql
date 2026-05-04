@@ -5,14 +5,15 @@
 -- 1. The app resolves project and achievement images from Supabase Storage,
 --    not from the table rows. Upload these files after running this seed:
 --    - bucket "projects":
---      portfolio-website.webp
---      chat-realtime-app.webp
---      analytics-dashboard.webp
+--      dashboard-monitoring-sistem.webp
+--      electronic-research-iot-development.webp
+--      iot-agricultural-system.webp
+--      suxesstories-platform-enhancement.webp
 --    - bucket "achievements":
---      dicoding-back-end.webp
---      google-data-analytics.webp
---      aws-cloud-practitioner.webp
---      hackathon-best-ui.webp
+--      rapid-application-backend-bootcamp.webp
+--      project-case-suxesstories.webp
+--      impact-national-hackathon-2024.webp
+--      studi-independen-bersertifikat-7.webp
 
 insert into public.projects (
   title,
@@ -26,32 +27,42 @@ insert into public.projects (
 )
 values
   (
-    'Portfolio Website',
-    'portfolio-website',
-    'Personal portfolio website with multilingual pages, blog-style content, achievements, and interactive UI sections.',
-    'https://rizqikevin.my.id',
-    'https://github.com/example/portfolio-website',
-    array['Next.js', 'TypeScript', 'TailwindCSS', 'Framer Motion', 'Supabase'],
+    'Dashboard Monitoring Sistem',
+    'dashboard-monitoring-sistem',
+    'Web-based monitoring dashboard built for operational visibility using React.js or Vue.js with reusable UI components and REST API integration.',
+    null,
+    null,
+    array['React.js', 'Vue.js', 'JavaScript', 'Axios', 'TailwindCSS'],
     true,
     true
   ),
   (
-    'Realtime Chat App',
-    'chat-realtime-app',
-    'Realtime discussion room with authentication, reply threads, notifications, and live updates using Supabase.',
-    'https://chat-demo.example.com',
-    'https://github.com/example/realtime-chat-app',
-    array['Next.js', 'TypeScript', 'NextAuth.js', 'Supabase', 'TailwindCSS'],
+    'Electronic Research & IoT Development',
+    'electronic-research-iot-development',
+    'A collection of electronic and IoT development work involving microcontroller systems, automated coffee vending machines, troubleshooting, and real-time backend integration.',
+    null,
+    null,
+    array['Python', 'C++', 'MySql', 'Flask', 'Linux'],
     true,
     true
   ),
   (
-    'Analytics Dashboard',
-    'analytics-dashboard',
-    'Dashboard for tracking product metrics, campaign performance, and usage trends with responsive data visualizations.',
-    'https://dashboard-demo.example.com',
-    'https://github.com/example/analytics-dashboard',
-    array['React.js', 'TypeScript', 'Axios', 'TailwindCSS', 'PostgreSql'],
+    'Sistem Pertanian Berbasis IoT',
+    'iot-agricultural-system',
+    'Award-winning IoT agriculture solution featuring automated pest detection and smart irrigation with real-time data integration.',
+    null,
+    null,
+    array['C++', 'Firebase', 'MySql', 'JavaScript', 'HTML'],
+    true,
+    true
+  ),
+  (
+    'SuXesstories Platform Enhancement',
+    'suxesstories-platform-enhancement',
+    'Enhancement work for the SuXesstories platform focused on QR-based self-registration, onboarding simplification, and event-oriented frontend/backend integration.',
+    null,
+    null,
+    array['Vue.js', 'Firebase', 'Express.js', 'JavaScript', 'Bootstrap'],
     true,
     false
   )
@@ -79,50 +90,50 @@ insert into public.achievements (
 )
 values
   (
-    'DCD-BE-2024-001',
-    'dicoding-back-end',
-    'Belajar Back-End Pemula dengan JavaScript',
-    'Dicoding Indonesia',
-    'Course',
+    'MAXY-RAB-2024',
+    'rapid-application-backend-bootcamp',
+    'Rapid Application Backend Bootcamp',
+    'Maxy Academy',
+    'Bootcamp',
     'Backend',
-    'https://www.dicoding.com/certificates/EXAMPLE-BACKEND',
-    '2024-03-15',
+    null,
+    '2024-12-01',
     null,
     true
   ),
   (
-    'GDA-2024-114',
-    'google-data-analytics',
-    'Google Data Analytics Professional Certificate',
-    'Google',
+    'MAXY-SUX-2024',
+    'project-case-suxesstories',
+    'Project Case [Virtual Internship] at SuXesstories',
+    'Maxy Academy',
     'Certification',
-    'Data',
-    'https://www.coursera.org/account/accomplishments/professional-cert/EXAMPLE',
-    '2024-05-22',
+    'Career',
+    null,
+    '2024-12-01',
     null,
     true
   ),
   (
-    'AWS-CCP-2024-778',
-    'aws-cloud-practitioner',
-    'AWS Certified Cloud Practitioner',
-    'Amazon Web Services',
-    'Certification',
-    'Cloud',
-    'https://www.credly.com/badges/example',
-    '2024-08-09',
-    '2027-08-09',
-    true
-  ),
-  (
-    'HACK-UI-2023-021',
-    'hackathon-best-ui',
-    'Best UI/UX Hackathon Project',
-    'Campus Tech Expo',
+    'MAXY-HACK-2024',
+    'impact-national-hackathon-2024',
+    'Impact National Hackathon 2024',
+    'Maxy Academy',
     'Award',
-    'Frontend',
+    'IoT',
     null,
-    '2023-11-04',
+    '2024-12-01',
+    null,
+    true
+  ),
+  (
+    'KM-SIB-7-2024',
+    'studi-independen-bersertifikat-7',
+    'Studi Independen Bersertifikat Angkatan 7',
+    'Kampus Merdeka',
+    'Certification',
+    'General',
+    null,
+    '2024-12-01',
     null,
     true
   )

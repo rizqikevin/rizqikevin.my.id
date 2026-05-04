@@ -1,9 +1,9 @@
 export const ABOUT = [
-  "I'm Rizqi Kevin, a Serang based Software Engineer dedicated to building impactful digital solutions. I specialize in developing web platforms and mobile applications using a modern tech stack, including Next.js, TypeScript, and native Android development with React Native.",
+  "I'm Rizqi Kevin, a Frontend Engineer with hands-on experience across web development, backend integration, and IoT system implementation. My work spans React.js, Vue.js, Laravel, Firebase, and microcontroller-based solutions used in operational and research environments.",
 
-  "My primary focus is crafting software architecture that doesn't just work but is well structured, maintainable, and scalable to meet business needs. I believe that high-quality code must go hand-in-hand with system efficiency and logical clarity.",
+  "My current focus is building reliable web interfaces and data-driven systems that are maintainable, responsive, and aligned with real business workflows. I value clean implementation, reusable components, and stable client-server synchronization.",
 
-  "I blend technical expertise with proactive communication, critical thinking, and effective time management. I thrive in collaborative environments and leverage leadership skills to ensure every project delivers optimal results and a real-world impact.",
+  "I combine technical execution with problem solving, communication, and fast adaptation. Beyond frontend work, I have experience in embedded systems, technical troubleshooting, and research-driven prototyping, which helps me approach software problems from both product and system perspectives.",
 
   "Best Regards,",
 ];

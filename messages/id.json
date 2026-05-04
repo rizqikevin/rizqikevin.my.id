@@ -1,15 +1,15 @@
 {
   "HomePage": {
     "intro": "Halo, saya Rizqi Kevin",
-    "location": "Berdomisili di Jambi, Indonesia 🇮🇩",
-    "location_type": "Onsite",
+    "location": "Berbasis di Jakarta, Indonesia 🇮🇩",
+    "location_type": "Frontend Engineer • Sistem Web & IoT",
     "resume": {
-      "paragraph_1": "Seorang Software Engineer dan kreator konten coding yang berdedikasi untuk membangun solusi digital yang berdampak. Saya spesialis dalam pengembangan platform web yang skalabel dan aplikasi mobile menggunakan tech stack modern, terutama Next.js, TypeScript, dan Native Android (Kotlin).",
-      "paragraph_2": "Fokus saya adalah merancang arsitektur perangkat lunak yang terstruktur dengan baik, mudah dipelihara, dan selaras dengan tujuan bisnis. Saya memadukan keahlian teknis dengan komunikasi proaktif dan kepemimpinan untuk memastikan setiap proyek memberikan kejelasan logis dan dampak nyata di dunia nyata."
+      "paragraph_1": "Seorang Frontend Engineer dengan pengalaman praktis di pengembangan web, integrasi backend, dan implementasi sistem IoT. Saya membangun antarmuka responsif, dashboard berbasis data, dan tools operasional menggunakan React.js, Vue.js, Laravel, Firebase, serta tooling JavaScript modern.",
+      "paragraph_2": "Fokus saya adalah merilis produk yang maintainable dan menyelesaikan masalah operasional nyata. Saya memadukan arsitektur UI yang reusable, integrasi client-server yang stabil, kemampuan troubleshooting, dan eksekusi kolaboratif untuk menghasilkan dampak yang terukur."
     },
     "skills": {
       "title": "Keahlian",
-      "sub_title": "Keahlian profesional saya."
+      "sub_title": "Keahlian teknis di frontend, backend, database, dan implementasi IoT."
     },
     "bento": {
       "title": "Bagian Unggulan",
@@ -22,18 +22,18 @@
     "title": "Tentang",
     "description": "Pengenalan singkat mengenai siapa saya.",
     "resume": {
-      "paragraph_1": "Saya Rizqi Kevin, seorang Software Engineer yang berbasis di Jambi, berdedikasi untuk membangun solusi digital yang berdampak. Saya spesialis dalam pengembangan platform web dan aplikasi mobile menggunakan tech stack modern, termasuk Next.js, TypeScript, dan pengembangan Android native dengan Kotlin.",
-      "paragraph_2": "Fokus utama saya adalah merancang arsitektur perangkat lunak yang tidak hanya berfungsi tetapi juga terstruktur dengan baik, mudah dipelihara, dan skalabel untuk memenuhi kebutuhan bisnis. Saya percaya bahwa kode berkualitas tinggi harus berjalan beriringan dengan efisiensi sistem dan kejelasan logis.",
-      "paragraph_3": "Saya memadukan keahlian teknis dengan komunikasi proaktif, berpikir kritis, dan manajemen waktu yang efektif. Saya berkembang dalam lingkungan kolaboratif dan memanfaatkan keterampilan kepemimpinan untuk memastikan setiap proyek memberikan hasil optimal dan dampak nyata.",
+      "paragraph_1": "Saya Rizqi Kevin, seorang Frontend Engineer dengan pengalaman yang mencakup aplikasi web, integrasi backend, sistem embedded, dan riset teknis. Pekerjaan terbaru saya meliputi pengembangan dashboard monitoring, peningkatan antarmuka operasional, dan dukungan untuk pengembangan produk berbasis IoT.",
+      "paragraph_2": "Saya lulus dari program Computer Science Universitas Bina Bangsa dan juga menyelesaikan Rapid Application Backend Bootcamp di Maxy Academy, yang memperkuat pengalaman saya di Laravel, optimasi database, autentikasi, web services, dan tooling frontend pendukung.",
+      "paragraph_3": "Saya mengerjakan software dengan kombinasi eksekusi praktis dan cara berpikir sistemik. Dari komponen React.js dan Vue.js yang reusable hingga troubleshooting hardware-software dan alur data real-time, saya fokus pada solusi yang stabil, efisien, dan benar-benar berguna di production.",
       "paragraph_4": "Salam hangat,"
     },
     "career": {
       "title": "Karier",
-      "sub_title": "Perjalanan profesional saya."
+      "sub_title": "Pengalaman profesional di frontend engineering, kolaborasi backend, dan riset elektronika."
     },
     "education": {
       "title": "Pendidikan",
-      "sub_title": "Perjalanan pendidikan saya."
+      "sub_title": "Latar belakang akademik dan bootcamp yang membentuk fondasi engineering saya."
     },
     "resume_download_button": "Unduh Resume",
     "portfolio_download_button": "Unduh Portofolio",
@@ -54,14 +54,14 @@
   },
   "AchievementsPage": {
     "title": "Pencapaian",
-    "description": "Koleksi sertifikat dan lencana yang telah saya raih sepanjang perjalanan profesional dan akademik saya.",
+    "description": "Prestasi hackathon, sertifikasi, dan program penting yang mencerminkan perkembangan saya di software engineering dan IoT.",
     "error": "Terjadi kesalahan pada server.",
     "no_data": "Data tidak tersedia.",
     "show_credential": "Lihat Kredensial"
   },
   "ProjectsPage": {
     "title": "Proyek",
-    "description": "Etalase proyek pribadi maupun sumber terbuka (open-source) yang telah saya bangun atau kontribusikan.",
+    "description": "Pilihan proyek frontend, backend, dan IoT dari pengalaman profesional, magang, dan kompetisi.",
     "view_project": "Lihat Proyek",
     "tech_stack": "Teknologi",
     "back_button": "Kembali",

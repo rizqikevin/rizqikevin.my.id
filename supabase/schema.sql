@@ -22,6 +22,8 @@ create type public.achievement_category as enum (
   'Cloud',
   'Data',
   'AI',
+  'IoT',
+  'Career',
   'General'
 );
 

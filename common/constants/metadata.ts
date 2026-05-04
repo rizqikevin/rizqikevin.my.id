@@ -1,7 +1,9 @@
 export const METADATA = {
   creator: "Rizqi Kevin",
-  description: "Personal website, portfolio, blog",
-  keyword: "rizqi kevin, rizqikevin, rizqi kevin octavian",
+  description:
+    "Frontend Engineer portfolio covering web development, backend integration, IoT systems, and professional project experience.",
+  keyword:
+    "rizqi kevin, frontend engineer, react js, vue js, laravel, iot developer, portfolio",
   authors: {
     name: "Rizqi Kevin",
     url: process.env.DOMAIN,

@@ -4,13 +4,17 @@ import { TbBeach, TbBrandFramerMotion } from "react-icons/tb";
 import { FaNpm, FaGolang } from "react-icons/fa6";
 import {
   SiCss3,
+  SiCplusplus,
   SiExpress,
+  SiFlask,
   SiFramer,
   SiGithub,
   SiHtml5,
   SiJavascript,
+  SiLinux,
   SiNextdotjs,
   SiNodedotjs,
+  SiPython,
   SiPrisma,
   SiReact,
   SiTailwindcss,
@@ -93,7 +97,7 @@ export const STACKS: SkillProps = {
     icon: <SiVuedotjs size={iconSize} />,
     background: "bg-green-400",
     color: "text-green-400",
-    isActive: false,
+    isActive: true,
   },
   "React.js": {
     icon: <SiReact size={iconSize} />,
@@ -215,6 +219,18 @@ export const STACKS: SkillProps = {
     color: "text-indigo-400",
     isActive: true,
   },
+  Python: {
+    icon: <SiPython size={iconSize} />,
+    background: "bg-yellow-500",
+    color: "text-yellow-500",
+    isActive: true,
+  },
+  "C++": {
+    icon: <SiCplusplus size={iconSize} />,
+    background: "bg-blue-700",
+    color: "text-blue-700",
+    isActive: true,
+  },
   Laravel: {
     icon: <SiLaravel size={iconSize} />,
     background: "bg-red-700",
@@ -255,6 +271,18 @@ export const STACKS: SkillProps = {
     icon: <SiFirebase size={iconSize} />,
     background: "bg-amber-500",
     color: "text-amber-500",
+    isActive: true,
+  },
+  Flask: {
+    icon: <SiFlask size={iconSize} />,
+    background: "bg-slate-700",
+    color: "text-slate-700",
+    isActive: true,
+  },
+  Linux: {
+    icon: <SiLinux size={iconSize} />,
+    background: "bg-zinc-800",
+    color: "text-zinc-800",
     isActive: true,
   },
   Supabase: {

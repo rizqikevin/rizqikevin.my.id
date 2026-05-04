@@ -14,6 +14,8 @@ const EducationCard = ({
   link,
   location,
   GPA,
+  coursework,
+  highlights,
 }: EducationProps) => {
   return (
     <SpotlightCard className="flex items-start gap-5 p-6">
@@ -24,9 +26,13 @@ const EducationCard = ({
       )}
 
       <div className="space-y-1">
-        <a href={link || "#"} target="_blank">
+        {link ? (
+          <a href={link} target="_blank">
+            <h6>{school}</h6>
+          </a>
+        ) : (
           <h6>{school}</h6>
-        </a>
+        )}
         <div className="space-y-2 text-sm text-neutral-600 dark:text-neutral-400">
           <div className="flex flex-col gap-1 md:flex-row md:gap-2">
             <span>{degree}</span>
@@ -53,6 +59,28 @@ const EducationCard = ({
             </span>
             <span>{location}</span>
           </div>
+
+          {highlights && highlights.length > 0 ? (
+            <ul className="space-y-1 pt-2 text-xs leading-relaxed">
+              {highlights.map((item, index) => (
+                <li key={index} className="flex items-start gap-2">
+                  <span className="font-bold text-neutral-700 dark:text-neutral-300">
+                    ✓
+                  </span>
+                  {item}
+                </li>
+              ))}
+            </ul>
+          ) : null}
+
+          {coursework && coursework.length > 0 ? (
+            <div className="pt-2 text-xs leading-relaxed">
+              <span className="font-semibold text-neutral-800 dark:text-neutral-200">
+                Relevant Coursework:
+              </span>{" "}
+              <span>{coursework.join(", ")}</span>
+            </div>
+          ) : null}
         </div>
       </div>
     </SpotlightCard>

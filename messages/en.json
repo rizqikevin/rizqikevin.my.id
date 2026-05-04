@@ -1,15 +1,15 @@
 {
   "HomePage": {
     "intro": "Hi, I'm Rizqi Kevin",
-    "location": "Based in Serang, Indonesia 🇮🇩",
-    "location_type": "Onsite",
+    "location": "Based in Jakarta, Indonesia 🇮🇩",
+    "location_type": "Frontend Engineer • Web & IoT Systems",
     "resume": {
-      "paragraph_1": "A Software Engineer and coding content creator dedicated to building impactful digital solutions. I specialize in developing scalable web platforms and mobile applications using a modern tech stack, primarily Next.js, TypeScript, and Native Android (React Native).",
-      "paragraph_2": "My focus is on crafting software architecture that is well-structured, maintainable, and aligned with business goals. I combine technical expertise with proactive communication and leadership to ensure every project delivers logical clarity and a meaningful real-world impact."
+      "paragraph_1": "A Frontend Engineer with practical experience in web development, backend integration, and IoT system implementation. I build responsive interfaces, data-driven dashboards, and operational tools using React.js, Vue.js, Laravel, Firebase, and modern JavaScript tooling.",
+      "paragraph_2": "My focus is on shipping maintainable products that solve real operational problems. I combine reusable UI architecture, stable client-server integration, troubleshooting skills, and collaborative execution to deliver measurable impact."
     },
     "skills": {
       "title": "Skills",
-      "sub_title": "My professional skills."
+      "sub_title": "Technical skills across frontend, backend, databases, and IoT implementation."
     },
     "bento": {
       "title": "Featured Sections",
@@ -22,18 +22,18 @@
     "title": "About",
     "description": "A brief introduction to who I am.",
     "resume": {
-      "paragraph_1": "I'm Rizqi Kevin, a Serang-based Software Engineer dedicated to building impactful digital solutions. I specialize in developing web platforms and mobile applications using a modern tech stack, including Next.js, TypeScript, and native Android development with Kotlin.",
-      "paragraph_2": "My primary focus is crafting software architecture that doesn't just work but is well-structured, maintainable, and scalable to meet business needs. I believe that high-quality code must go hand-in-hand with system efficiency and logical clarity.",
-      "paragraph_3": "I blend technical expertise with proactive communication, critical thinking, and effective time management. I thrive in collaborative environments and leverage leadership skills to ensure every project delivers optimal results and a real-world impact.",
+      "paragraph_1": "I'm Rizqi Kevin, a Frontend Engineer with experience spanning web applications, backend integration, embedded systems, and technical research. My recent work includes building monitoring dashboards, improving operational interfaces, and supporting IoT-oriented product development.",
+      "paragraph_2": "I graduated in Computer Science from Universitas Bina Bangsa and also completed Rapid Application Backend Bootcamp at Maxy Academy, where I deepened my experience in Laravel, database optimization, authentication, web services, and supporting frontend tooling.",
+      "paragraph_3": "I approach software work with a mix of practical execution and systems thinking. From reusable React.js and Vue.js components to hardware-software troubleshooting and real-time data flows, I focus on solutions that are stable, efficient, and useful in production.",
       "paragraph_4": "Best regards,"
     },
     "career": {
       "title": "Career",
-      "sub_title": "My professional journey."
+      "sub_title": "Professional experience across frontend engineering, backend collaboration, and electronics research."
     },
     "education": {
       "title": "Education",
-      "sub_title": "My educational journey."
+      "sub_title": "Academic and bootcamp background that shaped my engineering foundation."
     },
     "resume_download_button": "Download Resume",
     "portfolio_download_button": "Download Portfolio",
@@ -54,14 +54,14 @@
   },
   "AchievementsPage": {
     "title": "Achievements",
-    "description": "A curated collection of certificates and badges I’ve earned throughout my professional and academic journey.",
+    "description": "Hackathon wins, certifications, and milestone programs that reflect my progress in software engineering and IoT.",
     "error": "An error occurred on the server.",
     "no_data": "No data available.",
     "show_credential": "Show Credentials"
   },
   "ProjectsPage": {
     "title": "Projects",
-    "description": "A showcase of both private and open-source projects I’ve built or contributed to.",
+    "description": "Selected frontend, backend, and IoT projects from professional work, internships, and competitive builds.",
     "view_project": "View Project",
     "tech_stack": "Tech Stack",
     "back_button": "Back",
