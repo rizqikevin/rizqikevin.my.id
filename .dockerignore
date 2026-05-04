@@ -1,0 +1,59 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+.yarn
+
+# Build outputs
+.next
+out
+build
+dist
+
+# Environment files — never bake secrets into the image
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test & coverage
+coverage
+__tests__
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+
+# TypeScript build info
+*.tsbuildinfo
+next-env.d.ts
+
+# OS / editor artifacts
+.DS_Store
+Thumbs.db
+.vscode
+.idea
+*.pem
+
+# Git
+.git
+.gitignore
+
+# CI / deployment metadata
+.vercel
+.github
+
+# Docker files themselves (not needed inside the image)
+Dockerfile
+docker-compose*.yml
+nginx.conf
+README_DEPLOYMENT.md
+
+# Dev tooling
+.eslintcache
+.prettierignore
