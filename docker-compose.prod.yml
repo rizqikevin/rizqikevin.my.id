@@ -22,11 +22,31 @@ services:
       - "3218:3218"
     restart: always
     healthcheck:
-      test: ["CMD", "wget", "-qO-", "rizqikevin.my.id"]
+      test:
+        [
+          "CMD",
+          "wget",
+          "-qO-",
+          "http://localhost:3218/api/health",
+          "||",
+          "wget",
+          "-qO-",
+          "http://localhost:3218",
+        ]
       interval: 30s
       timeout: 10s
       retries: 3
       start_period: 40s
+    networks:
+      - web
+  cloudflare-tunnel:
+    image: cloudflare/cloudflared:latest
+    restart: always
+    environment:
+      - TUNNEL_TOKEN=${CLOUDFLARE_TUNNEL_TOKEN}
+    command: tunnel --no-autoupdate run
+    depends_on:
+      - app
     networks:
       - web
 
